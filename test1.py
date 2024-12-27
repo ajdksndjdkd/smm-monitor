@@ -3,7 +3,7 @@ import requests
 # GeezSMS API details
 headers = {"Authorization": f"Bearer {SMS_API_KEY}"}
 SMS_API_URL = "https://api.geezsms.com/api/v1/send"
-SMS_API_KEY = "WpFv4fHoAYtTMSv0kF9XOEE2QWUQugnM"
+SMS_API_KEY = "lOKljLgwAovpMIm8K8ZgHRZ5oTHzBxLq"
 TEST_PHONE_NUMBER = "+251945113048"  # Replace with your test number
 TEST_MESSAGE = "This is a test SMS via GeezSMS API."
 
