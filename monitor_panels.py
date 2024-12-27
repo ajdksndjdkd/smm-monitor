@@ -8,14 +8,17 @@ from dotenv import load_dotenv
 load_dotenv()
 
 PANEL_APIS = [
-    {"name": "Panel 1", "api_key": os.getenv("PANEL1_API_KEY"), "url": "https://powerlikesprovider.com/api/v2"},
+    {"name": "powerlikes", "api_key": os.getenv("e9b226d8e6d9c3684dd3652a885d04cc"), "url": "https://powerlikesprovider.com/api/v2"},
     # Add more panels as needed
 ]
 
-SMS_API_URL = "https://api.yoursmsprovider.com/send"  # Replace with actual SMS API URL
-SMS_API_KEY = os.getenv("SMS_API_KEY")
+SMS_API_URL = "https://api.geezsms.com/api/v1/send"  # Replace with actual SMS API URL
+SMS_API_KEY = os.getenv("lOKljLgwAovpMIm8K8ZgHRZ5oTHzBxLq")
 ALERT_THRESHOLD = 30  # Alert when balance is below this amount
-RECIPIENTS = ["+1234567890"]  # List of phone numbers to notify
+RECIPIENTS = ["+251945113048"]  # List of phone numbers to notify
+RECIPIENTS = ["+251911101713"]  # List of phone numbers to notify
+RECIPIENTS = ["+251918889870"]  # List of phone numbers to notify
+RECIPIENTS = ["+251989784638"]  # List of phone numbers to notify
 
 def check_balance():
     for panel in PANEL_APIS:
