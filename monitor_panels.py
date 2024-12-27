@@ -14,7 +14,7 @@ PANEL_APIS = [
 
 SMS_API_URL = "https://api.geezsms.com/api/v1/send"  # Replace with actual SMS API URL
 SMS_API_KEY = os.getenv("SMS_API_KEY")
-ALERT_THRESHOLD = 30  # Alert when balance is below this amount
+ALERT_THRESHOLD = 1000  # Alert when balance is below this amount
 RECIPIENTS = ["+251945113048", "+251911101713", "+251918889870", "+251989784638" ]  # List of phone numbers to notify
 
 
